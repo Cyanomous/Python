@@ -63,3 +63,34 @@ class Operators_and_Expressions:
         # Equal to(==)
         print(5 == 3)  # GIves False
         print(3 == 3)  # Gives True
+
+        # Not equal to(!=)
+        print(3 != 3)  # Gives False
+        print(5 != 3)  # Gives True
+
+        # Boolean Not(not)
+
+        """
+        Basically:
+        Addition(+)
+        Subtraction(-)
+        Multiplication(*)
+        Division(/)
+        Floor Division(//)
+        Remainder(%)
+        Bit-wise NOT(~)
+        Exponentiation(**)
+        Less than(<)
+        Grater than(>)
+        Less than or equal to(<=)
+        Greater than or equal to(>=)
+        Equal to(==)
+        """
+
+    class Expressions:
+        length = 5
+        breadth = 2
+
+        area = length * breadth
+        print('Area is', area)
+        print('Perimeter is', 2 * (length + breadth))
